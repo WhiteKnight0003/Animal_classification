@@ -47,15 +47,15 @@ Dưới đây là một số kết quả minh họa được trích xuất từ 
 
 **1. Đồ thị Train Loss**
 *Đồ thị cho thấy giá trị loss trên tập huấn luyện giảm dần qua các epoch, cho thấy mô hình đang học tốt.*
-![Đồ thị Train Loss](./demo/train_Loss.png)
+![Đồ thị Train Loss](./tensorboard/train_Loss.png)
 
 **2. Đồ thị Validation Accuracy**
 *Đồ thị cho thấy độ chính xác trên tập validation tăng dần, thể hiện khả năng tổng quát hóa của mô hình trên dữ liệu mới.*
-![Đồ thị Validation Accuracy](./demo/val_Accuracy.png)
+![Đồ thị Validation Accuracy](./tensorboard/val_Accuracy.png)
 
 **3. Ma trận Nhầm lẫn (Confusion Matrix)**
 *Ma trận nhầm lẫn từ epoch cuối cùng, cho thấy hiệu suất của mô hình trên từng lớp cụ thể. Đường chéo chính càng rõ nét thì mô hình phân loại càng chính xác.*
-![Ma trận Nhầm lẫn](./demo/Confusion_matrix.png)
+![Ma trận Nhầm lẫn](./tensorboard/Confusion_matrix.png)
 
 ## 🚀 Demo Dự đoán
 ![Test với ảnh con ngựa](./demo/result/demo1.png)
